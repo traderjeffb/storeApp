@@ -1,0 +1,90 @@
+
+
+body{
+	background-color: pink;
+}
+
+h2{
+	background-color: #F7E59D;      
+	color: white;
+	color: #0566A3;
+	font-family: arial black header;
+	text-align: center;
+}
+
+p {
+	background-color: #DCEBF1;
+	height: 70px;
+	width:300px;
+}
+
+#banner-pic{
+	height: 60px;
+	position: relative;
+	text-align: center;
+	bottom: 80px;
+	font-size: 55px;
+	font-style: italic;
+	text-shadow: 10px;
+}
+#content-Wrapper {
+	width: 1300px;
+	height: 300px;
+	margin: auto;
+}
+.social-content-wrapper{
+	position: relative;
+	margin: 0px 0px 500px 0px;
+	float:right;
+	list-style-type: none;
+	bottom:125px;
+	z-index: 2;
+}
+.header-size{
+	width: 100%;
+
+}
+
+#content-wrapper-trips {
+	float: right;
+	margin:0px 0px 300px 0px;
+	border: 3px solid gray; 
+	width: 1350px;
+	background-color: #7DCADD;
+	display: inline-block;
+}
+
+
+.panel{
+	display: inline-block;
+	margin: 5px 2px 2px 35px;
+	padding: 3px;
+	border: 10px solid gray;
+	background-color: #7DCADD;
+	border-radius: 10px;
+}	
+
+.myNav{
+	display: inline-block;
+	float: left;
+/*}
+ nav#utilityMenu li a, nav#utilityMenu li a:visited {padding: 0;}
+ nav#utilityMenu li a:hover {background-color: transparent;}
+ nav#utilityMenu ul li input#search {
+ 	vertical-align: middle;
+ 	margin: 0 0 0 1,0em;
+ }*/
+/* nav#utilityMenu ul li.acctNav::before, vav#utilityMenu ul li input#search::before{
+ 	content: " ";
+ 	color: #FCFBE6
+ }*/
+
+ .navBar {
+ 	height: 15px;
+ 	width: 1300px;
+ 	background-color:rgb(125, 202, 221);
+ 	position: static;
+ 	padding: 3px;
+ 	word-spacing: 20px;
+ 	margin-bottom: 100px;
+ }
