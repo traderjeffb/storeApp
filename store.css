@@ -36,7 +36,7 @@ p {
 
 #trips-section{
 	position: relative;
-	margin: 0px 0px 0px 120px;
+	margin: 0px 0px 0px 80px;
 }
 .social-content-wrapper{
 	height: 215;
@@ -75,7 +75,12 @@ p {
 .myNav{
 	display: inline-block;
 	float: left;
+} 
+
+.search{
+	float: right;
 }
+
 /*
  nav#utilityMenu li a, nav#utilityMenu li a:visited {padding: 0;}
  nav#utilityMenu li a:hover {background-color: transparent;}
@@ -108,6 +113,7 @@ footer {
 	width: 100%;
 	text-align: 1.5em 2.0em;
 	padding: 1.5em 2.0em;
+
 }
 footer ul#menuFooter {
 	display: inline-block;
