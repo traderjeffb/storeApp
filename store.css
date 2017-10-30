@@ -27,12 +27,20 @@ p {
 	font-style: italic;
 	text-shadow: 10px;
 }
+
 #content-Wrapper {
 	width: 1300px;
-	height: 300px;
+	height: 380px;
 	margin: auto;
 }
+
+#trips-section{
+	position: relative;
+	margin: 0px 0px 0px 120px;
+}
 .social-content-wrapper{
+	height: 215;
+	width:165;
 	position: relative;
 	margin: 0px 0px 500px 0px;
 	float:right;
@@ -57,7 +65,7 @@ p {
 
 .panel{
 	display: inline-block;
-	margin: 5px 2px 2px 35px;
+	margin: 5px 2px 2px 5px;
 	padding: 3px;
 	border: 10px solid gray;
 	background-color: #7DCADD;
@@ -67,7 +75,8 @@ p {
 .myNav{
 	display: inline-block;
 	float: left;
-/*}
+}
+/*
  nav#utilityMenu li a, nav#utilityMenu li a:visited {padding: 0;}
  nav#utilityMenu li a:hover {background-color: transparent;}
  nav#utilityMenu ul li input#search {
@@ -79,12 +88,47 @@ p {
  	color: #FCFBE6
  }*/
 
- .navBar {
+ #navBar {
  	height: 15px;
  	width: 1300px;
- 	background-color:rgb(125, 202, 221);
- 	position: static;
+ 	background-color:none;
+ 	position: relative;
  	padding: 3px;
- 	word-spacing: 20px;
+	word-spacing: 20px;
  	margin-bottom: 100px;
  }
+
+
+/*Footer*/
+footer {
+	background-color: #40362f;
+	height: 25px;
+	font-size:1.2em;
+	color: #fff;
+	width: 100%;
+	text-align: 1.5em 2.0em;
+	padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0
+}
+footer ul li::before {
+	content: "| ";
+	padding-right: 0.7em;
+}
+footer a, footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
